@@ -2,7 +2,7 @@
 it('should be able to add a new todo list', function(){
     cy.visit('http://todomvc-app-for-testing.surge.sh/')
 
-    cy.get('.new-todo', {timeout: 5000}).type('Learn Cypress{enter}')
+    cy.get('.new-todo', {timeout: 4500}).type('Learn Cypress{enter}')
     cy.get('label').should('have.text', 'Learn Cypress')
     cy.get('.toggle').should('not.be.checked')
 
