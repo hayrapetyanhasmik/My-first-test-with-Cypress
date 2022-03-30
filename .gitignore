@@ -1,5 +1,3 @@
+node_modules/
 .vscode
-plugins
-support
-node_modules
 *.json
