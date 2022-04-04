@@ -1,3 +1,4 @@
 
 .vscode
 cypress.json
+package-lock.json
