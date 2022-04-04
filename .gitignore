@@ -2,3 +2,4 @@
 .vscode
 cypress.json
 package-lock.json
+package.json
